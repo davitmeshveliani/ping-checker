@@ -10,7 +10,7 @@ for i in {1..20}; do
     ((fails++))
     echo "[$i] Fail ($fails/3)"
     if [ "$fails" -ge 3 ]; then
-      echo "🚨 3 подряд пинга не удались"
+      echo " 3 подряд пинга не удались"
       fails=0
     fi
   else
